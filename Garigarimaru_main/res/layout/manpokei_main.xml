@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView_manpokei_now_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/out_now_step" />
+
+    <TextView
+        android:id="@+id/textView_manpokei_step_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_manpokei_now_step"
+        android:layout_below="@+id/textView_manpokei_now_step"
+        android:text="123456789" />
+
+    <Button
+        android:id="@+id/button_manpokei_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView_manpokei_now_step"
+        android:text="@string/out_back" />
+
+    <TextView
+        android:id="@+id/textView_manpokei_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_manpokei_stop"
+        android:layout_below="@+id/textView_manpokei_now_step"
+        android:text="@string/out_steps" />
+
+    <Button
+        android:id="@+id/button_manpokei_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView_manpokei_step_number"
+        android:text="@string/out_stop" />
+
+    <Button
+        android:id="@+id/button_manpokei_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_manpokei_stop"
+        android:layout_alignBottom="@+id/button_manpokei_stop"
+        android:layout_alignParentLeft="true"
+        android:text="@string/out_start" />
+
+</RelativeLayout>

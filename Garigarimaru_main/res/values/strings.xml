@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">激ゃせガリガリ丸</string>
+    <string name="action_settings">Settings</string>
+    <string name="out_input_height">身長入力</string>
+    <string name="out_input_weight">体重入力</string>
+    <string name="out_kg">kg</string>
+    <string name="out_decision">確定</string>
+    <string name="out_data_reset">リセット</string>
+    <string name="out_all_reset">全消去</string>
+    <string name="out_manpokei">万歩計</string>
+    <string name="out_graph">グラフ</string>
+    <string name="out_decide">決定</string>
+ 
+    <string name="cm">out_cm</string>
+    <string name="out_cm">cm</string>
+    <string name="kg">out_kg</string>
+    <string name="hint_height_input">身長を入力して下さい</string>
+    <string name="hint_weight_input">体重を入力して下さい</string>
+    <string name="out_cancel">キャンセル</string>
+    <string name="height">身長</string>
+
+    <string name="out_weight">体重</string>
+    <string name="out_calorie">カロリー</string>
+    <string name="out_step">歩数</string>
+    <string name="out_comment">コメント：</string>
+    <string name="comment_weight">コメントの表示(体重)</string>
+    <string name="comment_calorie">コメントの表示(カロリー)</string>
+    <string name="comment_step">コメントの表示(歩数)</string>
+    <string name="out_back">戻る</string>
+    
+	<string name="out_now_step">現在の歩数</string>
+	<string name="out_steps">歩</string>
+	<string name="out_start">スタート</string>
+	<string name="out_stop">ストップ</string>
+
+	</resources>
+

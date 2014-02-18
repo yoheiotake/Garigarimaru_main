@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView_first_input_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_first_input_height"
+        android:layout_below="@+id/textView_first_input_height"
+        android:layout_marginTop="18dp"
+        android:text="@string/out_input_weight" />
+
+    <TextView
+        android:id="@+id/textView_first_out_kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_first_input_weight"
+        android:layout_alignLeft="@+id/textView_first_out_cm"
+        android:text="@string/out_kg" />
+
+    <TextView
+        android:id="@+id/textView_first_out_cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView_first_input_height"
+        android:text="@string/out_cm" />
+
+    <EditText
+        android:id="@+id/editText_first_input_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_first_input_height"
+        android:layout_alignRight="@+id/editText_first_input_height"
+        android:layout_alignTop="@+id/textView_first_out_kg"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_weight_input" />
+
+    <Button
+        android:id="@+id/button_first_decide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_first_input_weight"
+        android:layout_toLeftOf="@+id/button_first_cancel"
+        android:text="@string/out_decide" />
+
+    <TextView
+        android:id="@+id/textView_first_input_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/out_input_height" />
+
+    <EditText
+        android:id="@+id/editText_first_input_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView_first_input_height"
+        android:layout_toRightOf="@+id/textView_first_input_height"
+        android:ems="10"
+        android:hint="@string/hint_height_input"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_first_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText_first_input_weight"
+        android:text="@string/out_cancel" />
+
+</RelativeLayout>
