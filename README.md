@@ -22,7 +22,7 @@ Garigarimaru_main
 1. Eclipseの起動  
 2. プロジェクトのインポート  
 2.1 画面左のファイルエクスプローラーで右クリック  
-　　コンテキストメニュー -> Android -> ”Existing Android Code Into Workspace” -> "次へ"
+　　コンテキストメニュー -> Android -> ”Existing Android Code Into Workspace” を選択し、"次へ"をクリック  
 2.2 ”Root Directory”の右の参照ボタンをクリックし、"Garigarimaru_main”を選択しOKボタンをクリック  
 2.3 ”プロジェクトをワークスペースにコピー”にチェックをつける  
 2.4 完了ボタンをクリック
