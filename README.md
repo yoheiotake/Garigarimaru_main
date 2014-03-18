@@ -64,6 +64,53 @@ Garigarimaru_main
     11. バックグラウンド処理（加速度センサーの起動と終了）
     12. 万歩計（歩数のカウント）
 
+実行結果
+----------------
+
+### 初回起動画面
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/初回起動画面.png)  
+
+### メイン画面
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/メイン画面.png)
+
+### 体重入力
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/体重入力.png)  
+
+### 体重グラフ
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/体重グラフ.png)
+
+### カロリーグラフ
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/カロリーグラフ.png)  
+
+### 歩数グラフ
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/歩数グラフ.png)
+
+### スクロール機能
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/スクロール機能.png)  
+
+### 達成コメント
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/達成コメント.png)
+
+### 未達成コメント1
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/未達成コメント1.png)
+
+### 未達成コメント2
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/未達成コメント2.png)  
+
+### 履歴の読み込み
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/履歴の読み込み.png)
+
+### 万歩計画面
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/万歩計画面.png)
+
+### バックグラウンドタスク＆加速度センサー開始
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/加速度センサー開始.png)  
+
+### バックグラウンドタスク＆加速度センサー終了
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/加速度センサー終了.png)
+
+### バックグラウンドタスク
+![my image](http://www.kki.yamanashi.ac.jp/~t11kf008/images/weight/バックグラウンドタスク.png)
 
 その他
 ----------
